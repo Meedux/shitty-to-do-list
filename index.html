@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>To Do List</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="head">
+			<h1 class="title">
+				To Do List Application
+			</h1>
+			<form action="SUBMIT" class="add-task">
+				<input type="text" placeholder="Task Info" class="task-info">
+				<button class="submit-task">Add Task</button>
+			</form>
+		</header>
+
+		<!-- <div class="progress-section">
+			<h1>Progress: </h1>
+			<div id="progress-status">
+				<div id="progress-bar"></div>
+			</div>
+		</div> -->
+
+		<div class="filter-task">
+			<center>
+				<h3>Filter List</h3>
+			</center>
+
+			<input type="text" class="filter" id="filter" placeholder="Filter Task">	
+		</div>	
+
+		<div class="task-lists">
+			<ul class="task-container">
+				<li class="task-item">
+					<input type="checkbox" id="checkbox">
+					New Task
+					<a href="#" class="delete-item"><i class="bi bi-trash-fill"></i></a>
+				</li>
+			</ul>
+		</div>
+
+		<footer>
+			<button class="task-clear">Clear Tasks</button>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,154 @@
+body{
+	margin: 0;
+}
+
+/*Title and The Form*/
+
+.head{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.add-task{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.task-info {
+	margin-bottom: 10px;
+	width: 150%;
+	border: none;
+	border-bottom: 1px solid black;
+	transition: 300ms;
+}
+
+.task-info:focus {
+	outline: none;
+}
+
+.task-info:hover {
+	outline: none;
+	padding: 20px;
+}
+
+.submit-task{
+	border: 1px solid black;
+	width: 50%;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: black;
+	color: white;
+	transition: 300ms;
+}
+
+.submit-task:hover {
+	background-color: white;
+	color: black;
+}
+
+/*Progress Bar*/
+
+.progress-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#progress-status {
+	width: 50%;
+	background-color: #ddd;
+}
+
+#progress-bar {
+	height: 35px;
+	background-color: #4CAF50;
+	text-align: center;
+	line-height: 32px;
+	color: black;
+}
+
+/*The Task List and Items*/
+
+.filter-task {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.filter {
+	margin-bottom: 10px;
+	width: 50%
+	border: none;
+	border-bottom: 1px solid black;
+	margin-left: 3em;
+	margin-right: 3em;
+	transition: 300ms;
+}
+
+.filter:focus {
+	outline: none;
+}
+
+.filter:hover {
+	outline: none;
+	padding: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.task-lists {
+	margin: 50px;
+	border: 1px solid black;
+}
+
+.task-item {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+
+.task-container {
+	padding-left: 0;
+	margin: 15px;
+}
+
+.delete {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/*footer*/
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.task-clear {
+	border: 1px solid black;
+	width: 50%;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: white;
+	color: black;
+	transition: 300ms;
+}
+
+.task-clear:hover {
+	background-color: black;
+	color: white;
+}
